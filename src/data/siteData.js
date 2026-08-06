@@ -167,7 +167,7 @@ export const pricingPlans = [
     narrative: 'Tu negocio conectado con tu inventario.',
     price: '2,499',
     currency: 'MXN',
-    priceNote: 'pago único',
+    priceNote: '$300 mensuales',
     highlighted: false,
     features: [
       'Todo lo incluido en Starter',
@@ -184,7 +184,7 @@ export const pricingPlans = [
     narrative: 'Tu negocio tomando decisiones con datos.',
     price: '5,000',
     currency: 'MXN',
-    priceNote: 'pago único',
+    priceNote: '$500 mensuales',
     highlighted: true,
     features: [
       'Dashboard interactivo privado',
@@ -299,7 +299,8 @@ export const team = [
       'Soy estudiante de la licenciatura en Física y Tecnología Avanzada en la Universidad Autónoma del Estado de Hidalgo, con una formación enfocada al desarrollo de redes neuronales, análisis de datos, y modelación matemática.',
     photo: '/images/team/Lalo.jpg',
     // EDITAR AQUÍ EL CURRÍCULUM
-resume: 'Soy estudiante de la Licenciatura en Física y Tecnología Avanzada en la Universidad Autónoma del Estado de Hidalgo, con formación en redes neuronales, análisis de datos y modelación matemática. Mi fortaleza está en el análisis matemático, la resolución de problemas complejos y la programación, con una sólida base en cálculo y álgebra lineal. Combino el rigor de las ciencias exactas con el desarrollo de soluciones tecnológicas para crear sitios web y herramientas de análisis de datos respaldadas por una lógica precisa y orientadas a resolver problemas de negocio.',  },
+resume: 'Mi fortaleza está en el análisis matemático, la resolución de problemas complejos y la programación, con una sólida base en cálculo y álgebra lineal. Combino el rigor de las ciencias exactas con el desarrollo de soluciones tecnológicas para crear sitios web y herramientas de análisis de datos respaldadas por una lógica precisa y orientadas a resolver problemas de negocio.',  
+},
   {
     id: 'integrante-3',
     name: 'Juan Jordan',
@@ -308,7 +309,7 @@ resume: 'Soy estudiante de la Licenciatura en Física y Tecnología Avanzada en 
       'Estudiante con perfil técnico y creativo, con experiencia en ingeniería, producción audiovisual y artes escénicas. Destaco por mi rápida adaptación, trabajo en equipo y enfoque en soluciones prácticas.',
     photo: '/images/team/Juan.jpg',
     // EDITAR AQUÍ EL CURRÍCULUM
-    resume: 'Estudiante de Ingeniería en Física Industrial en el Tecnológico de Monterrey. Líder y fundador de equipos de robótica con experiencia en competencias nacionales e internacionales. Ha trabajado como líder de campamentos de robótica, mentor juvenil y actor de teatro en Canadá. Destaca por su liderazgo, comunicación, gestión de proyectos y enseñanza de conceptos técnicos. Reconocido por su impacto comunitario y excelencia académica. Idiomas: Español (C2), Inglés (C1) y Alemán (A1).',
+    resume: 'Líder y fundador de equipos de robótica con experiencia en competencias nacionales e internacionales. Ha trabajado como líder de campamentos de robótica, mentor juvenil y actor de teatro en Canadá. Destaca por su liderazgo, comunicación, gestión de proyectos y enseñanza de conceptos técnicos. Reconocido por su impacto comunitario y excelencia académica. Idiomas: Español (C2), Inglés (C1) y Alemán (A1).',
   },
 ];
 
