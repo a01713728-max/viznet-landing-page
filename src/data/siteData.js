@@ -271,7 +271,7 @@ export const portfolio = [
     description: 'Estamos trabajando en nuevos proyectos. Muy pronto verás más de nuestro trabajo aquí.',
     technologies: [],
     // Usa temporalmente una de tus imágenes existentes para que no marque error visual
-    image: '/images/portfolio/NANIXHE.jpg', 
+    image: '/images/proximamente/Proximamente.jpg', 
     imageSecondary: '',
     url: '#',
     buttonLabel: 'Próximamente',
