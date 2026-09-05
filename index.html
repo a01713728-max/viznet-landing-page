@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>VizNet | Diseño y Desarrollo Web Profesional en Ixmiquilpan, Hidalgo</title>
+    <meta
+      name="description"
+      content="VizNet diseña y desarrolla páginas web profesionales para PyMEs en Ixmiquilpan, Hidalgo y cualquier lugar. Solicita tu cotización por WhatsApp."
+    />
+    <meta
+      name="keywords"
+      content="diseño web Ixmiquilpan, desarrollo web Ixmiquilpan, páginas web para negocios, diseño de páginas web para PyMEs"
+    />
+    <meta name="author" content="VizNet" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.viznet.mx/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VizNet" />
+    <meta property="og:title" content="VizNet | Diseño y Desarrollo Web Profesional" />
+    <meta
+      property="og:description"
+      content="Diseño y desarrollo de páginas web profesionales para negocios en Ixmiquilpan, Hidalgo y cualquier lugar. Solicita tu cotización por WhatsApp."
+    />
+    <meta property="og:image" content="/images/logo/viznet-og.jpg" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:url" content="https://www.viznet.mx/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="VizNet | Diseño y Desarrollo Web Profesional" />
+    <meta
+      name="twitter:description"
+      content="Diseño y desarrollo de páginas web profesionales para negocios en Ixmiquilpan, Hidalgo y cualquier lugar."
+    />
+    <meta name="twitter:image" content="/images/logo/viznet-og.jpg" />
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "VizNet",
+        "description": "Diseño y desarrollo de páginas web profesionales para PyMEs.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ixmiquilpan",
+          "addressRegion": "Hidalgo",
+          "addressCountry": "MX"
+        },
+        "areaServed": "MX",
+        "telephone": "+52 772 160 1652",
+        "url": "https://www.viznet.mx/"
+      }
+    </script>
+
+    <script>
+      // Aplica el tema guardado antes de que React monte, para evitar
+      // un parpadeo visual entre modo claro y oscuro (FOUC).
+      (function () {
+        try {
+          var stored = localStorage.getItem('viznet-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored === 'light' || stored === 'dark' ? stored : prefersDark ? 'dark' : 'light';
+          if (theme === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {
+          /* localStorage no disponible */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
