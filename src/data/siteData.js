@@ -224,7 +224,20 @@ export const businessIntelligence = {
 
 // EDITAR AQUÍ LOS PROYECTOS DEL PORTAFOLIO (placeholders, no inventar datos reales)
 export const portfolio = [
-  
+  {
+    id: 'proyecto-1',
+    name: 'Librería Ideal',
+    client: 'Oscar Cruz Villar',
+    category: 'Starter',
+    description: 'Catálogo de libros, seccionado por categorías.',
+    technologies: ['React', 'Tailwind CSS'],
+    // 1. Usa barras normales (/)
+    // 2. Omite "public" o el nombre de tu carpeta local de la ruta
+    image: '/images/portfolio/libreriaideal.jpg',
+    imageSecondary: '/images/portfolio/libreriaideal.jpg',
+    url: '[INSERTAR URL DEL PROYECTO 1]',
+    buttonLabel: 'Ver proyecto',
+  },
   {
     id: 'proyecto-2',
     name: 'NANIXHE',
