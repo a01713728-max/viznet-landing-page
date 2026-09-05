@@ -224,9 +224,8 @@ export const businessIntelligence = {
 
 // EDITAR AQUÍ LOS PROYECTOS DEL PORTAFOLIO (placeholders, no inventar datos reales)
 export const portfolio = [
-  
   {
-    id: 'proyecto-2',
+    id: 'proyecto-1',
     name: 'NANIXHE',
     client: 'Esmeralda',
     category: 'Starter',
@@ -239,7 +238,7 @@ export const portfolio = [
     buttonLabel: 'Ver proyecto',
   },
   {
-    id: 'proyecto-3',
+    id: 'proyecto-2',
     name: 'Consultorio psicoterapéutico',
     client: 'María Zoraida Cruz Villar',
     category: 'Starter',
@@ -252,7 +251,7 @@ export const portfolio = [
     buttonLabel: 'Ver proyecto',
   },
   {
-    id: 'proyecto-4',
+    id: 'proyecto-3',
     name: 'Curriculum',
     client: 'Fernando Zavala Domínguez',
     category: 'Starter',
@@ -263,6 +262,19 @@ export const portfolio = [
     imageSecondary: '/images/portfolio/fercho.jpg',
     url: 'https://a01713728-max.github.io/Fernando/',
     buttonLabel: 'Ver proyecto',
+  },
+  {
+    id: 'proyecto-4',
+    name: 'Próximamente',
+    client: 'En desarrollo',
+    category: 'Próximamente',
+    description: 'Estamos trabajando en nuevos proyectos. Muy pronto verás más de nuestro trabajo aquí.',
+    technologies: [],
+    // Usa temporalmente una de tus imágenes existentes para que no marque error visual
+    image: '/images/portfolio/NANIXHE.jpg', 
+    imageSecondary: '',
+    url: '#',
+    buttonLabel: 'Próximamente',
   },
 ];
 
