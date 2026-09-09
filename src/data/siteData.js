@@ -154,7 +154,7 @@ export const pricingPlans = [
     highlighted: false,
     features: [
       'Registro y ficha técnica de clientes',
-      'Ubicación regional (Mineral de la Reforma / Pachuca)',
+      'Ubicación regional ',
       'Control de pedidos y flujo de anticipo (50% / 50%)',
       'Historial de compras por cliente',
       'Roles de usuario (1 Administrador y 1 Estándar)',
