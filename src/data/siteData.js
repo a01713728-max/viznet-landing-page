@@ -192,11 +192,12 @@ export const pricingPlans = [
     highlighted: false,
     features: [
       'Todo lo incluido en el paquete Personalizado',
-      'Panel de tendencias (Mineral de la Reforma vs. Pachuca)',
+      'Panel de tendencias de las zonas',
       'Modelos predictivos de recompra (Estadística Inferencial)',
       'Proyección de demanda por temporadas y picos de venta',
       'Dashboard analítico con exportación de reportes',
       'Acompañamiento estratégico por 30 días',
+      'Uso de ML para una mejor predicción de tendencias',
     ],
     ctaLabel: 'Elegir CRM Avanzado',
     whatsappMessage: 'Hola, me interesa contratar el paquete CRM Avanzado de $22,000 MXN.',
