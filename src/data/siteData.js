@@ -347,7 +347,7 @@ export const faqs = [
   {
     question: '¿Cuánto tarda en hacerse una página?',
     answer:
-      'El tiempo depende del paquete y la complejidad del proyecto, pero en promedio entregamos un sitio Starter en 1 a 2 semanas y proyectos más completos en 2 a 4 semanas.',
+      'El tiempo depende del paquete y la complejidad del proyecto, pero en promedio entregamos un sitio Starter en 72 horas y el avanzado de 2 a 3 semanas.',
   },
   {
     question: '¿El dominio está incluido?',
