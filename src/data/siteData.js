@@ -347,7 +347,7 @@ export const faqs = [
   {
     question: '¿Cuánto tarda en hacerse una página?',
     answer:
-      'El tiempo depende del paquete y la complejidad del proyecto, pero en promedio entregamos un sitio Starter en 72 horas y el avanzado de 2 a 3 semanas.',
+      'El tiempo depende del paquete y la complejidad del proyecto, pero en promedio entregamos un sitio Catálogo Web + WhatsApp en 72 horas. Mientras que el CRM & Gestión de Pedidos y CRM & Analítica Avanzada  en 2 semanas.',
   },
   {
     question: '¿El dominio está incluido?',
