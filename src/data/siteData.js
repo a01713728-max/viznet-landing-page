@@ -361,7 +361,7 @@ export const faqs = [
   {
     question: '¿Puedo modificar mi catálogo?',
     answer:
-      'Con el paquete Negocios Plus puedes actualizar tu inventario cargando un archivo de Excel, sin depender de conocimientos técnicos.',
+      'Con todos puedes actualizar tu inventario cargando un archivo de Excel, sin depender de conocimientos técnicos.',
   },
   {
     question: '¿Qué ocurre después de los primeros 2 cambios?',
